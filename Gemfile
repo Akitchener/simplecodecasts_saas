@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-ruby '2.0.0'
+ruby '2.1.1'
 # Use postgresql as the database for production
 group :production do
   gem 'pg'
@@ -32,10 +32,12 @@ gem 'jbuilder', '2.0'
 gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+gem 'devise','3.4.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use unicorn as the app server
-# gem 'unicorn'
+#gem 'unicorn'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 # Use debugger
